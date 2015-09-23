@@ -1,0 +1,5 @@
+@startuml
+
+usecase ATRIBUTO
+
+@enduml
