@@ -1,3 +1,15 @@
+.. header::
+    
+    ###Section###
+    
+.. footer::
+ 
+    ###Page###-###Total###
+     
+.. raw:: pdf
+
+    PageBreak oneColumn
+    
 1.2 - Definiciones
 ------------------
 
