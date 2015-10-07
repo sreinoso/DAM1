@@ -57,11 +57,15 @@ Linux:
     - OpenLock
     - Gnome => Eina: GLADE(GTK)
       
+.. raw:: pdf
+ 
+    PageBreak oneColumn
+
 Caracteristicas interficies
 ===========================
 
 - Accesible e intuitiva
-- Utilizar metaforas(Imatges)
+- Utilizar metaforas(Imatges que ens diguin alguna cosa)
 - Facil aprenentatge i us
 - Consistent
 - Oferir control de la aplicacio a l'usuari
@@ -79,3 +83,30 @@ Definicions
 ===========
 
 :Interficie: Es un conjunt d'elements (que poden pertanyer al SW o al HW) que ofereixen una informacio a l'usuari, i permetent, es a mes a mes, la interaccio (fisica o logica) entre l'usuari i l'ordinador, per mitja d'un dispositiu periferic o un enllaç de comunicacio.
+
+
+Elementos GUI
+=============
+ 
+- Top Level
+    - Ventanas
+    - Cuadros de dialogo
+    - Asistentes
+       
+- Menus
+- Pestaña
+- Barra de Herramientas
+- Iconos
+- Entorno de trabajo
+- Controles
+    - Botones
+        -
+        - radio button
+        - checkbox
+        - Boton con relieve
+        - Combobox
+        - Desplegables
+
+
+Els controls son objectes que pereten un desenvolupament de la interficie mes senzilla gracies a la seva posibilitat de modularitat i reutilitzacio
+Els controls tenen **propietats** i **metodes**, i es poden associar a **esdeveniments**
