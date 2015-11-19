@@ -1,15 +1,90 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
 <interface>
-  <!-- interface-naming-policy project-wide -->
-  <!-- interface-requires gtk+ 3.0 -->
+  <requires lib="gtk+" version="3.0"/>
   <object class="GtkWindow" id="window">
     <property name="visible">True</property>
+    <property name="can_focus">False</property>
     <property name="title" translatable="yes">window</property>
     <property name="default_width">500</property>
     <property name="default_height">400</property>
-    <signal name="destroy" handler="on_window_destroy"/>
+    <signal name="destroy" handler="on_window_destroy" swapped="no"/>
     <child>
-      <placeholder/>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkButton" id="b_izquierda">
+            <property name="label" translatable="yes">Izquierda</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="izquierda" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">74</property>
+            <property name="y">179</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="b_centrar">
+            <property name="label" translatable="yes">Centrar</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="centrar" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">207</property>
+            <property name="y">180</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="b_derecha">
+            <property name="label" translatable="yes">Derecha</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="derecha" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">337</property>
+            <property name="y">181</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkLabel" id="l_texto">
+            <property name="width_request">198</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="margin_left">110</property>
+            <property name="margin_right">110</property>
+            <property name="label" translatable="yes">Bienvenido</property>
+            <property name="width_chars">0</property>
+            <property name="angle">0.040000000000000001</property>
+          </object>
+          <packing>
+            <property name="x">46</property>
+            <property name="y">65</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+  <object class="GtkWindow" id="window1">
+    <property name="can_focus">False</property>
+    <child>
+      <object class="GtkLabel" id="l_salida">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+      </object>
     </child>
   </object>
 </interface>
