@@ -1,0 +1,11 @@
+@startuml
+(*) --> "Main Window"
+"Main Window" -->[Entrar(entrar)] "Work Window"
+
+"Main Window" -->[Salida Descanso(out_Descanso)] (*)
+"Main Window" -->[Salida Final(out_final)] (*)
+"Main Window" -->[Salida Trabajo(out_work)] (*)
+"Main Window" -->[Close] (*)
+
+"Work Window" -->[Close] "Main Window"
+@enduml
