@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
+<interface>
+  <requires lib="gtk+" version="3.0"/>
+  <object class="GtkWindow" id="window1">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="title" translatable="yes">window</property>
+    <property name="default_width">500</property>
+    <property name="default_height">400</property>
+    <child>
+      <object class="GtkFixed" id="fixed1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <child>
+          <object class="GtkSwitch" id="s_mostra">
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="visible">True</property>
+            <property name="can_focus">True</property>
+            <signal name="state-set" handler="mostrar" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">16</property>
+            <property name="y">153</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkButton" id="b_tancar">
+            <property name="label" translatable="yes">Tancar</property>
+            <property name="width_request">100</property>
+            <property name="height_request">80</property>
+            <property name="can_focus">True</property>
+            <property name="receives_default">True</property>
+            <signal name="clicked" handler="salir" swapped="no"/>
+          </object>
+          <packing>
+            <property name="x">156</property>
+            <property name="y">42</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>

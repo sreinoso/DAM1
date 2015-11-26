@@ -2,21 +2,20 @@
 Maximized=1
 Geometry=1366x710+0+0
 
-[File Loader]
-Files=../../src/main.c#71%%%../../src/exercici4.ui
-
 [Document Manager]
 bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
 
 [Execution]
-Program arguments=
 Program uri=../../Debug/src/exercici4
 Run in terminal=2
 Working directories=../../.
 
 [Project Manager]
-Shortcut=exercici4//src//exercici4
-Expand=exercici4%%%exercici4//src%%%exercici4//src//exercici4%%%exercici4//src//ui
+Shortcut=exercici4
+Expand=exercici4%%%exercici4%%%exercici4//src%%%exercici4//src//ui
+
+[Debugger]
+Stop at beginning=2
 
 [Build]
 Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized%%%1:MinGW32:MinGW32
@@ -26,5 +25,5 @@ BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLA
 BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
 BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'
 
-[Debugger]
-Stop at beginning=2
+[File Loader]
+Files=../../src/exercici4.ui

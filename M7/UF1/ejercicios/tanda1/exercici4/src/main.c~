@@ -80,7 +80,10 @@ void izquierda(){
 
 void mover(float mv){
 	priv->posicion+=mv;
-	gtk_widget_set_halign (priv->l_texto,priv->posicion);
+	g_print("CLICK\n");
+	gtk_label_set_justify (priv->l_texto,0.1);
+	//gtk_alignment_set(priv->l_texto,0.0,0.0,0.0,0.0);
+	//gtk_widget_set_halign (priv->l_texto,priv->posicion);
 }
 
 static GtkWidget*

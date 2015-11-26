@@ -23,10 +23,10 @@ VERSION = 0.1
 
 SHELL = /bin/bash
 
-srcdir = /home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4/po
-top_srcdir = /home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4
+srcdir = /media/sergio/04615d72-4d22-4b7c-ac73-e7b0ebee6f2c/home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4/po
+top_srcdir = /media/sergio/04615d72-4d22-4b7c-ac73-e7b0ebee6f2c/home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4
 top_builddir = ..
-VPATH = /home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4/po
+VPATH = /media/sergio/04615d72-4d22-4b7c-ac73-e7b0ebee6f2c/home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4/po
 
 prefix = /usr/local
 exec_prefix = ${prefix}
@@ -36,7 +36,7 @@ libdir = ${exec_prefix}/lib
 DATADIRNAME = share
 itlocaledir = $(prefix)/$(DATADIRNAME)/locale
 subdir = po
-install_sh = ${SHELL} /home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4/install-sh
+install_sh = ${SHELL} /media/sergio/04615d72-4d22-4b7c-ac73-e7b0ebee6f2c/home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4/install-sh
 # Automake >= 1.8 provides $(MKDIR_P).
 # Until it can be supposed, use the safe fallback:
 mkdir_p = $(install_sh) -d
@@ -66,7 +66,7 @@ DISTFILES = Makefile.in.in POTFILES.in $(POFILES)
 EXTRA_DISTFILES = ChangeLog POTFILES.skip Makevars LINGUAS
 
 POTFILES = \
-	/home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4/src/main.c
+	/media/sergio/04615d72-4d22-4b7c-ac73-e7b0ebee6f2c/home/sergio/DAM/M7/UF1/ejercicios/tanda1/exercici4/src/main.c
 
 CATALOGS=$(shell LINGUAS="$(USE_LINGUAS)"; for lang in $$LINGUAS; do printf "$$lang.gmo "; done)
 

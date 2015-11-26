@@ -8,7 +8,6 @@ Files=../../src/main.c#1%%%../../src/exercici2.ui
 bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
 
 [Execution]
-Program arguments=
 Program uri=../../Debug/src/exercici2
 Run in terminal=2
 Working directories=../../.
